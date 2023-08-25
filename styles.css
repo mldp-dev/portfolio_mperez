@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+
+.navbar {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.detail {
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.detail h1 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #20247b;
+}
+
+.detail p {
+  color: gray;
+  line-height: 22px;
+}
+
+.detail a {
+  background-color: #212121;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.images {
+  width: auto;
+  height: auto;
+  position: absolute;
+}
+
+.images img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  transform: translate(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.view:hover {
+  background-color: lightcoral;
+}
+
+/* Hire me */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column {
+  display: flex;
+}
+
+.reg-form {
+  color: black;
+  padding: 100px;
+  width: 50%;
+}
+
+.side {
+  background-color: lightcoral; 
+  color: white; 
+  padding: 30px;
+  width: 30%;
+  height: 40vh;
+  margin-top: 100px;
+}
+
+input[type=text] {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  background-color: #20247b;
+  color: white;
+  border: none;
+}
+
+.reg-form h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+
+  .detail {
+    margin-bottom: 10%;
+  }
+
+  .images {
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+
+  .images img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    transition: bottom 1s, left 1s;
+    margin-left: 240px;
+  }
+
+
+/* Meet, Mariella Technologies and Skills */
+
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.resume-section {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  font-family: "Poppins", sans-serif;
+}
+.list-inline {
+  list-style: none;
+}
+
+.list-icons {
+  font-size: 2.5rem;
+}
+
+#skill-bars {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.progress-bar,
+.btn {
+  background-color: #20247B;
+  background-image: linear-gradient(
+    to right,
+    #bfefff,
+    #8dd2f3,
+    #5fb4e8,
+    #3594dc,
+    #1874cd
+  );
+}
+
+.fa-user-tag,
+.blue,
+.list-inline-item i:hover {
+  /* color: #5fb4e8; */
+  color: #20247B;
+  transition: all 0.2s ease-in-out;
+}
+
+
+@media (max-width: 500px) {
+
+  .detail {
+    margin-bottom: 10%;
+  }
+
+  .images {
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+
+  .images img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    transition: bottom 1s, left 1s;
+    margin-left: 240px;
+  }
+}
+
+
+/* Meet, Mariella Services */
+
+
+body{margin-top:20px;}
+
+/* Feature Box
+---------------------*/
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+}
+.feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #fc5356;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  color: #20247b;
+  font-weight: 600;
+}
+.feature-box-1 p {
+  margin: 0;
+}
+.feature-box-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: #20247b;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1:hover {
+  top: -5px;
+}
+.feature-box-1:hover h5 {
+  color: #ffffff;
+}
+.feature-box-1:hover p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.feature-box-1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto;
+}
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.section-title {
+    padding-bottom: 45px;
+}
+.section-title h2 {
+    font-weight: 700;
+    color: #20247b;
+    font-size: 25px;
+    margin: 0 0 15px;
+    border-left: 5px solid #20247b;
+    padding-left: 15px;
+}
+
+
+/* Meet, Mariella Contact */
+
+e preview selection
+
+body{
+    margin-top:20px;
+    background:#eee;
+}
+
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+        padding: 5rem !important
+    }
+}
+.contact-info__list span.position-absolute {
+    left: 0
+}
+.z-index-101 {
+    z-index: 101;
+}
+.list-style--none {
+    list-style: none;
+}
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+}
+.shadow-lg, .shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
+}
+
+/* Meet, Mariella About */
+
+body{
+  margin-top:20px;
+  background:#F0F8FF;
+  }
+  .text-custom{
+  color: #fc5356 !important;
+  }
