@@ -142,7 +142,10 @@ input[type=submit] {
     margin-left: 240px;
   }
 
-
+  .resume-section{
+    margin-top:300px
+  }
+  
 /* Meet, Mariella Technologies and Skills */
 
 }
@@ -211,6 +214,7 @@ body {
     transition: bottom 1s, left 1s;
     margin-left: 240px;
   }
+
 }
 
 
@@ -354,6 +358,7 @@ body{
     .contact-form__wrapper {
         padding: 5rem !important
     }
+    
 }
 .shadow-lg, .shadow-lg--on-hover:hover {
     box-shadow: 0 1rem 3rem rgba(132,138,163,0.1) !important;
